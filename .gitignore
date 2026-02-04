@@ -1,3 +1,5 @@
-node_modules/*
-*.json
+node_modules/
+.vercel/
 index.js
+# Allow vercel.json but ignore other potential json noise
+!vercel.json
