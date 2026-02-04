@@ -1,7 +1,11 @@
 {
     "version": 2,
+    "public": true,
     "name": "radhika-valentine",
-    "cleanUrls": true,
-    "trailingSlash": false,
-    "framework": null
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/$1"
+        }
+    ]
 }
